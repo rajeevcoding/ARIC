@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "n95ypLU8Vb3XKGLpVMyV+Unme98ZptTa4kVcKV9gu+i0lNgJlFdrj2NoWYMv0jOn714qbqy7BNjfnh18wFOdEQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rranjan\\source\\repos\\AricMiddlewareAPI\\AnalyticsEngine\\AnalyticsEngine.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rranjan\\.nuget\\packages\\azure.ai.textanalytics\\1.0.1\\azure.ai.textanalytics.1.0.1.nupkg.sha512",
+    "C:\\Users\\rranjan\\.nuget\\packages\\azure.core\\1.2.2\\azure.core.1.2.2.nupkg.sha512",
+    "C:\\Users\\rranjan\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.0.0\\microsoft.bcl.asyncinterfaces.1.0.0.nupkg.sha512",
+    "C:\\Users\\rranjan\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.5\\microsoft.extensions.configuration.abstractions.3.1.5.nupkg.sha512",
+    "C:\\Users\\rranjan\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.5\\microsoft.extensions.primitives.3.1.5.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
+    "C:\\Users\\rranjan\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.6.0\\system.diagnostics.diagnosticsource.4.6.0.nupkg.sha512",
+    "C:\\Users\\rranjan\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\rranjan\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\rranjan\\.nuget\\packages\\system.text.json\\4.6.0\\system.text.json.4.6.0.nupkg.sha512",
+    "C:\\Users\\rranjan\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.2\\system.threading.tasks.extensions.4.5.2.nupkg.sha512"
+  ],
+  "logs": []
+}

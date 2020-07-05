@@ -1,0 +1,8 @@
+C:\Users\rranjan\source\repos\AricMiddlewareAPI\AnalyticsEngine\bin\Debug\netcoreapp3.1\AnalyticsEngine.deps.json
+C:\Users\rranjan\source\repos\AricMiddlewareAPI\AnalyticsEngine\bin\Debug\netcoreapp3.1\AnalyticsEngine.dll
+C:\Users\rranjan\source\repos\AricMiddlewareAPI\AnalyticsEngine\obj\Debug\netcoreapp3.1\AnalyticsEngine.AssemblyInfoInputs.cache
+C:\Users\rranjan\source\repos\AricMiddlewareAPI\AnalyticsEngine\obj\Debug\netcoreapp3.1\AnalyticsEngine.AssemblyInfo.cs
+C:\Users\rranjan\source\repos\AricMiddlewareAPI\AnalyticsEngine\bin\Debug\netcoreapp3.1\AnalyticsEngine.pdb
+C:\Users\rranjan\source\repos\AricMiddlewareAPI\AnalyticsEngine\obj\Debug\netcoreapp3.1\AnalyticsEngine.csproj.CoreCompileInputs.cache
+C:\Users\rranjan\source\repos\AricMiddlewareAPI\AnalyticsEngine\obj\Debug\netcoreapp3.1\AnalyticsEngine.dll
+C:\Users\rranjan\source\repos\AricMiddlewareAPI\AnalyticsEngine\obj\Debug\netcoreapp3.1\AnalyticsEngine.pdb
