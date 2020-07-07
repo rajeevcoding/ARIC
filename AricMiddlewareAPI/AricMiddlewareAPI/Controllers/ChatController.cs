@@ -1,5 +1,7 @@
 ﻿using AnalyticsEngine;
+using AricMiddlewareAPI.Models;
 using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
 
 namespace AricMiddlewareAPI.Controllers
 {
@@ -8,15 +10,35 @@ namespace AricMiddlewareAPI.Controllers
     public class ChatController : ControllerBase
     {
         private readonly IAnalyticsProvider _analyticsProvider;
+        private readonly AricdbContext aricdbContext;
 
-        public ChatController(IAnalyticsProvider analyticsProvider)
+        public ChatController(IAnalyticsProvider analyticsProvider, AricdbContext aricdbContext)
         {
             _analyticsProvider = analyticsProvider;
+            this.aricdbContext = aricdbContext;
         }
-        [HttpPost("{id}")]
-        public string PostMessage(string id, [FromBody] string message)
+        [HttpPost("{workflowId}")]
+        public int OpenSession(int workflowId)
         {
-            return _analyticsProvider.AnalyzeSentiment(message);
+            var createdChatSession = aricdbContext.ChatSession.Add(new ChatSession
+            {
+                WorkFlowId = workflowId
+            });
+            aricdbContext.SaveChanges();
+            return createdChatSession.Entity.ChatSessionId;
+        }
+
+        [HttpPost("{chatSessionId}")]
+        public bool CloseSession(int chatSessionId)
+        {
+            // Close the session by calculating the overall score.
+            return true;
+        }
+
+        [HttpGet]
+        public IEnumerable<WorkFlow> GetWorkFlows()
+        {
+            return aricdbContext.WorkFlow;
         }
     }
 }
